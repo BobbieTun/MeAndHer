@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: linear-gradient(135deg, #0f172a, #1e1b4b); }
+        .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center text-white">
+    <div class="glass p-10 rounded-3xl shadow-2xl text-center max-w-lg w-full">
+        <h1 class="text-4xl font-bold mb-2 tracking-widest uppercase">Mahal Kita</h1>
+        <div class="h-1 w-20 bg-pink-500 mx-auto mb-6 rounded-full"></div>
+        
+        <p class="text-gray-300 italic mb-8">"Since we first met..."</p>
+        
+        <div class="grid grid-cols-3 gap-4 mb-8">
+            <div class="glass p-4 rounded-xl">
+                <span class="block text-2xl font-bold">365</span>
+                <span class="text-xs uppercase text-gray-400">Days</span>
+            </div>
+            <div class="glass p-4 rounded-xl">
+                <span class="block text-2xl font-bold">12</span>
+                <span class="text-xs uppercase text-gray-400">Hours</span>
+            </div>
+            <div class="glass p-4 rounded-xl">
+                <span class="block text-2xl font-bold">45</span>
+                <span class="text-xs uppercase text-gray-400">Mins</span>
+            </div>
+        </div>
+
+        <button class="bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105">
+            Our Memories
+        </button>
+    </div>
+</body>
+</html>
